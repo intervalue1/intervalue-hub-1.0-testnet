@@ -1,6 +1,6 @@
-var db = require('intervaluecore/db');
-var conf = require('intervaluecore/conf');
-var eventBus = require('intervaluecore/event_bus.js');
+var db = require('intervaluecore-1.0-testnet/db');
+var conf = require('intervaluecore-1.0-testnet/conf');
+var eventBus = require('intervaluecore-1.0-testnet/event_bus.js');
 var https = require('https');
 
 

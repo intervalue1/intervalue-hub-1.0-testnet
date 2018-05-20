@@ -1,9 +1,9 @@
 /*jslint node: true */
 "use strict";
-var db = require('intervaluecore/db.js');
-var storage = require('intervaluecore/storage.js');
-var mail = require('intervaluecore/mail.js');
-var conf = require('intervaluecore/conf.js');
+var db = require('intervaluecore-1.0-testnet/db.js');
+var storage = require('intervaluecore-1.0-testnet/storage.js');
+var mail = require('intervaluecore-1.0-testnet/mail.js');
+var conf = require('intervaluecore-1.0-testnet/conf.js');
 
 function notifyAdmin(message){
 	write(message);
