@@ -2,8 +2,8 @@
 "use strict";
 require('intervalue-relay');
 var conf = require('./conf');
-var network = require('intervaluecore-1.0-testnet/network');
-var eventBus = require('intervaluecore-1.0-testnet/event_bus.js');
+var network = require('intervaluecore/network');
+var eventBus = require('intervaluecore/event_bus.js');
 var push = require('./push');
 const price_feed = require('./exchange_price_feed');
 

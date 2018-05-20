@@ -21,7 +21,7 @@ Install node.js, clone the repository, then say
 ```sh
 npm install
 ```
-Set up a proxy, such as nginx, to forward all websocket connections on a specific path to your daemon running the hub code.  See example configuration for nginx in [intervaluecore-1.0-testnet](../../../intervaluecore-1.0-testnet) documentation.
+Set up a proxy, such as nginx, to forward all websocket connections on a specific path to your daemon running the hub code.  See example configuration for nginx in [intervaluecore](../../../intervaluecore-1.0-testnet) documentation.
 
 ## Run
 ```sh
@@ -29,7 +29,7 @@ node start.js > log &
 ```
 ## Customize
 
-If you want to change any defaults, refer to the documentation of [intervaluecore-1.0-testnet](../../../intervaluecore-1.0-testnet), the core InterValue library `require()`'d from here.
+If you want to change any defaults, refer to the documentation of [intervaluecore](../../../intervaluecore-1.0-testnet), the core InterValue library `require()`'d from here.
 
 ## Push notifications for Android
 

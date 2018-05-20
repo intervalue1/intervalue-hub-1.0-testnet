@@ -2,8 +2,8 @@
 'use strict';
 const async = require('async');
 const request = require('request');
-const eventBus = require('intervaluecore-1.0-testnet/event_bus.js');
-const network = require('intervaluecore-1.0-testnet/network.js');
+const eventBus = require('intervaluecore/event_bus.js');
+const network = require('intervaluecore/network.js');
 
 const symbols = ['USDT-BTC', 'BTC-GBYTE'];
 const rates = {};

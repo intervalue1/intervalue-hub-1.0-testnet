@@ -1,12 +1,12 @@
 /*jslint node: true */
 'use strict';
-const conf = require('intervaluecore-1.0-testnet/conf.js');
-const eventBus = require('intervaluecore-1.0-testnet/event_bus.js');
-const network = require('intervaluecore-1.0-testnet/network.js');
-const storage = require('intervaluecore-1.0-testnet/storage.js');
-const db = require('intervaluecore-1.0-testnet/db.js');
-const mail = require('intervaluecore-1.0-testnet/mail.js');
-const validationUtils = require('intervaluecore-1.0-testnet/validation_utils.js');
+const conf = require('intervaluecore/conf.js');
+const eventBus = require('intervaluecore/event_bus.js');
+const network = require('intervaluecore/network.js');
+const storage = require('intervaluecore/storage.js');
+const db = require('intervaluecore/db.js');
+const mail = require('intervaluecore/mail.js');
+const validationUtils = require('intervaluecore/validation_utils.js');
 
 const arrRegistryAddresses = Object.keys(conf.trustedRegistries);
 network.setWatchedAddresses(arrRegistryAddresses);
